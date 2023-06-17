@@ -1,3 +1,4 @@
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 import styles from '../styles/Hero.module.css';
 
 const Hero: React.FC = () => {
@@ -24,12 +25,30 @@ const Hero: React.FC = () => {
             alt="ens-logo"
           />
         </div>
-      
+
+        
+
+        
       </div>
 
+      <div>
+
       <div className={styles.heroTextSmall}>
-        🔔 PENSER - Push ENS Expiry Reminder
-      </div>
+            🔔 PENSER - Push ENS Expiry Reminder
+        </div>
+
+      <div className={styles.heroTextSmall2}>
+            get reminded when your ENS domain is about to expire with the power of Push Protocol
+        </div>
+
+        <div className={styles.connectButton}>
+            <ConnectButton />
+        </div>
+        
+
+        </div>
+      
+      
     </div>
   );
 };
