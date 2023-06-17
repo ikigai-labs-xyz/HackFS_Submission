@@ -1,9 +1,7 @@
-import { ConnectButton } from '@rainbow-me/rainbowkit';
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
-import Hero from '../components/Hero';
 import Footer from '../components/Footer';
+import Hero from '../components/Hero';
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +11,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/assets/pens.svg" type="image/svg+xml" />
     </Head>
     <Hero />
-    
+
     <Footer/>
     
     </>
