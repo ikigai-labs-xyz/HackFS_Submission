@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Ubuntu:wght@500&display=swap');
+
+@import 'animate.css';
+
+
+.footerContainer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footerSection {
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    color: #000000;
+  }
+  

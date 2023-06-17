@@ -1,5 +1,6 @@
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import styles from '../styles/Hero.module.css';
+import Footer from '../components/Footer';
 
 const Hero: React.FC = () => {
   return (
@@ -47,8 +48,6 @@ const Hero: React.FC = () => {
         
 
         </div>
-      
-      
     </div>
   );
 };

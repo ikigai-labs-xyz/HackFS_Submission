@@ -3,16 +3,18 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Hero from '../components/Hero';
+import Footer from '../components/Footer';
 
 const Home: NextPage = () => {
   return (
     <>
     <Head>
         <title>PENSER</title>
-        <link rel="icon" href="./public/assets/pens.svg" type="svg" />
+        <link rel="icon" href="/assets/pens.svg" type="image/svg+xml" />
     </Head>
-
     <Hero />
+    
+    <Footer/>
     
     </>
   );
