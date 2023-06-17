@@ -7,7 +7,13 @@ import Hero from '../components/Hero';
 const Home: NextPage = () => {
   return (
     <>
+    <Head>
+        <title>PENSER</title>
+        <link rel="icon" href="./public/assets/pens.svg" type="svg" />
+    </Head>
+
     <Hero />
+    
     </>
   );
 };
